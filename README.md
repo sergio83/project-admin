@@ -3,10 +3,12 @@ project-admin
 
 This website lets you to group all project resources in one place. Also this platform allows distribute beta iOS/Android applications to team members and the clients.
 
+You can configure the menu by editing the file "menuConfig.json"
 <br>
 <a href='http://postimage.org/' target='_blank'><img src='http://s18.postimg.org/n8lmrqtk9/Captura_de_pantalla_2014_04_05_a_la_s_05_59_30.png' border='0' alt="Captura de pantalla 2014 04 05 a la(s) 02 53 39" /></a>
 <br>
 
+You can add new builds to share by editing the file "appConfig.json" and add the .ipa or .apk file in the folder "releaseversion/data"
 <br>
 <a href='http://postimage.org/' target='_blank'><img src='http://s27.postimg.org/ayo6e847n/Captura_de_pantalla_2014_04_05_a_la_s_06_31_57.png' border='0' alt="Captura de pantalla 2014 04 05 a la(s) 02 53 39" /></a>
 <br>
