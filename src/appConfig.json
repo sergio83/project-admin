@@ -1,0 +1,26 @@
+{
+    "iphone": {
+        "hidden": false,
+        "apps": [
+            {
+	            "hidden": true,
+                "version": "1.0 iOS",
+                "link": "http://www.google.com",
+                "date": "Jun 10th, 2014",
+                "notes": "First Release"
+            }
+        ]
+    },
+    "android": {
+        "hidden": false,
+        "apps": [
+            {
+	            "hidden": true,            
+                "version": "1.0 Android",
+                "link": "http://www.google.com",
+                "date": "Jan 10th, 2014",
+                "notes": "First Release"
+            }
+        ]
+    }
+}

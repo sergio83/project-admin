@@ -1,0 +1,59 @@
+{
+    "title": "App Name",
+    "items": [
+        {
+            "title": "Estimation",
+            "link": "#",
+            "icon": "images/estimation.png",
+            "hidden": false
+        },
+        {
+            "title": "Svn",
+            "link": "#",
+            "icon": "images/svn.png",
+            "hidden": false
+        },
+        {
+            "title": "Schedule",
+            "link": "#",
+            "icon": "images/schedule.png",
+            "hidden": false
+        },
+        {
+            "title": "Wireframes",
+            "link": "#",
+            "icon": "images/wireframe.png",
+            "hidden": false
+        },
+        {
+            "title": "WS Specification",
+            "link": "#",
+            "hidden": false,
+            "icon": "images/ws.png"
+        },
+        {
+            "title": "Test",
+            "link": "google.com",
+            "icon": "images/estimation.png",
+            "hidden": true
+        },
+        {
+            "title": "Google Analytics",
+            "link": "#",
+            "icon": "images/google_analitics.png",
+            "hidden": false
+        },
+        {
+            "title": "App Test",
+            "link": "releaseversions/index.php",
+            "icon": "images/demos.png",
+            "hidden": false
+        },
+        {
+            "title": "Translated Strings",
+            "link": "#",
+            "icon": "images/translate.png",
+            "hidden": false
+        }
+    ]
+}

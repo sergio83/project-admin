@@ -1,0 +1,276 @@
+input::-moz-focus-inner { 
+  border: 0; 
+}
+
+a {
+   outline: 0;
+}
+
+#menuList li a:hover{
+	color:#2E4E5B;
+	text-decoration: none;
+	outline: 0;
+}
+
+#menuList li a:active{
+	outline: 0;
+}
+
+
+.panel-heading img{
+	margin-top: -6px;
+}
+
+.panel-heading span{
+	margin-left: 4px;
+}
+
+.panel-success {
+border-color: #3c763d;
+}
+
+.panel-success > .panel-heading {
+color: #FFF;
+background-color: #3c763d;
+border-color: #3c763d;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+@media (min-width: 768px) {
+	.marketing .col-lg-2 {
+	text-align: center;
+	margin-bottom: 20px;
+	float: left;
+	width: 16.666666666666664%;
+	}
+}
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+  font: normal 16px Arial, Helvetica, sans-serif;
+}
+.marketing .col-lg-2 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#logo {
+    height:45px;
+    margin-top: 3px;
+}
+
+@media (min-width: 768px) {
+  #logo {
+    height:60px;
+  }
+}
+
+.navbar-default{
+background: #212121;
+}
+
+
+@media (min-width: 570px) {
+	.share {
+	min-width:260px;	
+	width:260px !important;
+	margin: 15px 0px !important;	
+	margin-left: 10%;	
+	}
+}
+
+
+
+.share {
+	width:90%;
+	margin-bottom: 0px;
+	margin-top: 15px;		
+	margin-left: 5%;
+	background-color: #FFF;
+	height:204px;		
+	display: inline-block;
+}
+
+.share .title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #6d6d6d;
+	line-height: 1.8em;
+	padding: 15px 5px 0px 25px;
+	margin: 0;
+}
+
+.share img{
+	float: left;
+	margin: 0px;
+	width: 48px;
+	height: 48px;
+	margin-left: 25px;
+	margin-right: 5px;	
+}
+
+.share .shareItem{
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #6d6d6d;
+	line-height: 1.8em;
+	padding: 5px 5px;
+}
+
+.copyright{
+width:100%;
+height: 60px;
+border-top: 1px solid #fff;
+background-image: url(/apps/images/bg_body_top.gif);
+}
+.copyright p{
+padding: 4px 0 0;
+font: normal 11px Arial, Helvetica, sans-serif;
+color: #e1e1e1;
+line-height: 1.4em;
+width: 80%;
+margin:auto;
+}
+
+.contactUs {
+	margin: 0;
+	padding: 15px 5px 10px 0px;
+	display: inline-block;
+}
+
+.contactUs .mail_icon{
+	display: inline-block;
+}
+
+.contactUs .mail_icon img{
+	margin-right: 5px;
+}
+
+.contactUs a{
+color: #333333;
+padding: 5px 5px;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+line-height: normal;
+	display: inline-block;
+}
+
+.contactUs span{
+color: #336699;
+}
+
+.contactUs p {
+font: normal 12px Arial, Helvetica, sans-serif;
+color: #6d6d6d;
+line-height: 1.8em;
+padding: 5px 5px;
+margin: 0;
+}
+
+.contactUs .bg {
+clear: both;
+border-top: 1px solid #dcdcdc;
+padding: 0;
+margin: 10px 0;
+background: none;
+line-height: 0;
+}
+
+
+
+
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	text-align: center;
+}
+
+h3, .h3 {
+font-size: 2em;
+}
+
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+ 
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+
+	ul.grid-nav li a {
+		display: block;
+	}
+
+	ul.rig {
+		margin-left: 0;
+	}
+
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
